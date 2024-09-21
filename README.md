@@ -17,15 +17,16 @@ This project is a real-time chat application built using HTMX, Django Channels a
 
 # Installation
 1. Clone this repository: ```git clone https://github.com/direntwi/realtimechat.git```
-2. Navigate into the project directory: ```cd realtimechat```
-3. Install dependencies: ```pip install -r requirements.txt```
+2. Navigate into the project directory: ```cd maas```
+4. Install dependencies: ```pip install -r requirements.txt```
 5. Run migrations to set up the database: ```python manage.py migrate```
 6. Start the development server: ```python manage.py runserver```
 
 # Requirements
 1. Python 3.x
 2. Django 3.x or later
-3. Django Channels for WebSockets support
+3. PostgreSQL or any other supported database
+
 
    
 # Contributing
